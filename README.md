@@ -8,15 +8,15 @@
 
 ## Open Source Contributions
 
-**4 merged PRs**, plus a maintainer-absorbed cross-provider fix credited via `Co-authored-by` across 3 of my PRs.
+4 merged PRs, plus a maintainer-absorbed cross-provider fix credited via `Co-authored-by` across 3 of my PRs.
 
 | Project | What | Status |
 |---------|------|--------|
-| [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Fixed Cohere `tool_choice` silently dropped in v2 chat API — maintainer extended with VCR tests + named-subset handling | ✅ [Merged #5833](https://github.com/pydantic/pydantic-ai/pull/5833) |
-| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Added Confluence permission-checking tools | ✅ [Merged #1320](https://github.com/sooperset/mcp-atlassian/pull/1320) |
+| [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Fixed Cohere `tool_choice` silently dropped in v2 chat API. Maintainer extended with VCR tests and named-subset handling | ✅ [Merged #5833](https://github.com/pydantic/pydantic-ai/pull/5833) |
+| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Added Confluence permission checking tools | ✅ [Merged #1320](https://github.com/sooperset/mcp-atlassian/pull/1320) |
 | [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Fixed Jira non-image attachments silently dropped by MCP clients (returned as rejected image blob) | ✅ [Merged #1469](https://github.com/sooperset/mcp-atlassian/pull/1469) (co-author, `Co-authored-by` credit) |
-| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Wired up cross-request credential validation cache, closing a WAF rate-limit trap | ✅ [Merged #1481](https://github.com/sooperset/mcp-atlassian/pull/1481) (co-author, consolidated with an independently-opened fix) |
-| [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Cohere: implemented `request_stream` / `CohereStreamedResponse` — full streaming support where none existed | 🔄 [PR #6100](https://github.com/pydantic/pydantic-ai/pull/6100) — approved, CI green |
+| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Wired up cross-request credential validation cache, closing a WAF rate-limit trap | ✅ [Merged #1481](https://github.com/sooperset/mcp-atlassian/pull/1481) (co-author, consolidated with an independently opened fix) |
+| [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Cohere: implemented `request_stream` and `CohereStreamedResponse`, full streaming support where none existed | 🔄 [PR #6100](https://github.com/pydantic/pydantic-ai/pull/6100), approved, CI green |
 | [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Dropped foreign `ThinkingPart`s from history by default across 5 providers (Anthropic, Bedrock, Groq, HuggingFace, xAI) to stop reasoning leaks | 🔄 [PR #5920](https://github.com/pydantic/pydantic-ai/pull/5920) (co-author, absorbs 3 of my provider-specific PRs) |
 | [smolagents](https://github.com/huggingface/smolagents) ⭐ 17k | Fixed `KeyError` on `tool_calls` in `AmazonBedrockModel` with cross-region inference profiles | 🔄 [PR #2363](https://github.com/huggingface/smolagents/pull/2363) |
 | [smolagents](https://github.com/huggingface/smolagents) ⭐ 17k | Fixed broken Space link in tools tutorial (Python 3.13 incompatibility) | 🔄 [PR #2364](https://github.com/huggingface/smolagents/pull/2364) |
@@ -28,11 +28,11 @@
 
 | Venue | Year | Role | Paper |
 |-------|------|------|-------|
-| SIGIR-AP | 2025 | **First Author · Best Paper Nominee** | FalseCoTQA — Adversarial Multi-Hop QA via Knowledge-Grounded False Chains of Thought |
+| SIGIR-AP | 2025 | First Author, Best Paper Nominee | FalseCoTQA: Adversarial Multi-Hop QA via Knowledge-Grounded False Chains of Thought |
 | CIKM | 2025 | Co-author | Uncovering the Persuasive Fingerprint of LLMs in Jailbreaking Attacks |
 | Canadian AI | 2026 | Co-author | Cause-Conditioned Multi-Task Learning for Answerable Question Suggestion in MRC |
 | Canadian AI | 2026 | Co-author | From Hints to Answers: Uncertainty-Aware LLM-Guided Retrieval for Multi-Hop QA |
-| SIGIR-AP | 2024 | Co-author | UnAnswGen — Generating Unanswerable Questions in MRC |
+| SIGIR-AP | 2024 | Co-author | UnAnswGen: Generating Unanswerable Questions in MRC |
 
 ---
 
@@ -40,24 +40,21 @@
 
 | Project | Stack | What it is |
 |---|---|---|
-| [Argus](https://github.com/Julien-ser/argus) | Claude Code, SQLite, FastAPI, React/Vite | Claude Code observability platform — Pre/PostToolUse hooks trace 12+ event types; 29 sessions, 1.4M+ tokens, 198 flagged events tracked; composite trust score |
-| [AgenticRobot](https://github.com/Julien-ser/AgenticRobot) | Claude Code, MCP, FastMCP, Raspberry Pi Pico W | Natural-language robot control via 15 FastMCP tools over TCP WiFi; mecanum-wheel 4WD, obstacle avoidance, servo radar |
-| [FalseCoTQA](https://github.com/Julien-ser/FalseCoTQA) | Python, NLP | SIGIR-AP 2025 Best Paper Nominee — adversarial multi-hop QA benchmark, knowledge-grounded false chains of thought |
-| EarningsSignal | LangChain (LCEL), LangGraph, FastMCP, SEC EDGAR | Quant-recruiting portfolio piece — LLM-structured extraction of trading signals from real 10-K/10-Q filings, backtested against forward returns with lookahead-bias discipline |
-| [ResumeWorthy](https://github.com/Julien-ser/ResumeWorthy) | Next.js, TypeScript, Supabase, Vercel | AI job-application assistant — resume tailoring, job matching, recruiter finder |
-| Cybersecurity Portfolio | Splunk, Kali, BurpSuite, VirtualBox | 7 job-landing security portfolio projects; AI Red-Teaming module already found a genuine prompt-injection leak |
+| [Argus](https://github.com/Julien-ser/argus) | Claude Code, SQLite, FastAPI, React/Vite | Claude Code observability platform. Pre/PostToolUse hooks trace 12+ event types across 29 sessions and 1.4M+ tokens, 198 flagged events tracked, composite trust score |
+| [AgenticRobot](https://github.com/Julien-ser/AgenticRobot) | Claude Code, MCP, FastMCP, Raspberry Pi Pico W | Natural-language robot control via 15 FastMCP tools over TCP WiFi. Mecanum-wheel 4WD, obstacle avoidance, servo radar |
+| [FalseCoTQA](https://github.com/Julien-ser/FalseCoTQA) | Python, NLP | SIGIR-AP 2025 Best Paper Nominee. Adversarial multi-hop QA benchmark, knowledge-grounded false chains of thought |
+| [ResumeWorthy](https://github.com/Julien-ser/ResumeWorthy) | Next.js, TypeScript, Supabase, Vercel | AI job-application assistant. Resume tailoring, job matching, recruiter finder |
 | [AKO-Agentic-Kernel-Optimization](https://github.com/Julien-ser/AKO-Agentic-Kernel-Optimization) | Python, Agentic AI, AMD/HPC | Autonomous system that generates, profiles, and refines GPU kernels for high-performance AI inference on AMD hardware |
-| PacmanRL | Python | UC Berkeley CS188 Reinforcement Learning project, full 21/21 autograder pass |
 
-See the [portfolio](https://julien-ser.github.io/JulienSerbanescu) for the full interactive project explorer, or ask its built-in terminal a question directly.
+See the [portfolio](https://julien-ser.github.io/JulienSerbanescu) for more, including the interactive project explorer.
 
 ---
 
 ## What I'm Working On
 
-- **Co-Operators** — Azure + Splunk cloud engineering; IGA/PAM compliance; FastAPI automation across Jira/Confluence
-- **Cyber Science Lab @ U of Guelph** — LLM jailbreak pipelines (97% ASR), RL-based real-time defenses, VLM adversarial vaccination
-- **OSS** — contributing to AI/ML libraries (pydantic-ai, smolagents, crewAI, mcp-atlassian)
+- Co-Operators: Azure and Splunk cloud engineering, IGA/PAM compliance, FastAPI automation across Jira/Confluence
+- Cyber Science Lab @ U of Guelph: LLM jailbreak pipelines (97% ASR), RL-based real-time defenses, VLM adversarial vaccination
+- OSS: contributing to AI/ML libraries (pydantic-ai, smolagents, crewAI, mcp-atlassian)
 
 ---
 
