@@ -8,7 +8,7 @@
 
 ## Open Source Contributions
 
-4 merged PRs, plus a maintainer-absorbed cross-provider fix credited via `Co-authored-by` across 3 of my PRs.
+4 merged PRs across pydantic-ai and mcp-atlassian.
 
 | Project | What | Status |
 |---------|------|--------|
@@ -17,7 +17,7 @@
 | [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Fixed Jira non-image attachments silently dropped by MCP clients (returned as rejected image blob) | ✅ [Merged #1469](https://github.com/sooperset/mcp-atlassian/pull/1469) (co-author, `Co-authored-by` credit) |
 | [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Wired up cross-request credential validation cache, closing a WAF rate-limit trap | ✅ [Merged #1481](https://github.com/sooperset/mcp-atlassian/pull/1481) (co-author, consolidated with an independently opened fix) |
 | [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Cohere: implemented `request_stream` and `CohereStreamedResponse`, full streaming support where none existed | 🔄 [PR #6100](https://github.com/pydantic/pydantic-ai/pull/6100), approved, CI green |
-| [pydantic-ai](https://github.com/pydantic/pydantic-ai) ⭐ 10k | Dropped foreign `ThinkingPart`s from history by default across 5 providers (Anthropic, Bedrock, Groq, HuggingFace, xAI) to stop reasoning leaks | 🔄 [PR #5920](https://github.com/pydantic/pydantic-ai/pull/5920) (co-author, absorbs 3 of my provider-specific PRs) |
+| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | Fixed `jira_to_markdown` stripping brackets from all bracketed text, not just bare links, silently rewriting `[~user]` mentions on every read | 🔄 [PR #1570](https://github.com/sooperset/mcp-atlassian/pull/1570) |
 | [smolagents](https://github.com/huggingface/smolagents) ⭐ 17k | Fixed `KeyError` on `tool_calls` in `AmazonBedrockModel` with cross-region inference profiles | 🔄 [PR #2363](https://github.com/huggingface/smolagents/pull/2363) |
 | [smolagents](https://github.com/huggingface/smolagents) ⭐ 17k | Fixed broken Space link in tools tutorial (Python 3.13 incompatibility) | 🔄 [PR #2364](https://github.com/huggingface/smolagents/pull/2364) |
 | [crewAI](https://github.com/crewAIInc/crewAI) ⭐ 31k | Show updated agent answer before feedback prompt when `verbose=False` | 🔄 [PR #6386](https://github.com/crewAIInc/crewAI/pull/6386) |
