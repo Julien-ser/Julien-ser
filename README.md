@@ -2,7 +2,7 @@
 
 **Computer Engineering Co-op @ University of Guelph** (GPA 3.94/4.0) · **Cloud Engineer @ Co-Operators** · AI Security Researcher
 
-**[Portfolio](https://julien-ser.github.io/JulienSerbanescu)** · **[LinkedIn](https://linkedin.com/in/julien-serbanescu)** · **[ORCID](https://orcid.org/0009-0000-2305-0228)**
+**[Portfolio](https://julien-ser.github.io/JulienSerbanescu/)** · **[LinkedIn](https://linkedin.com/in/julien-serbanescu)** · **[ORCID](https://orcid.org/0009-0000-2305-0228)**
 
 ---
 
