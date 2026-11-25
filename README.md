@@ -1,8 +1,10 @@
 # Julien Serbanescu
 
+Julien Serbanescu is a computer engineering student at the University of Guelph who researches where LLMs fail and builds AI systems that hold up: 5 papers at SIGIR-AP, CIKM and Canadian AI (one a SIGIR-AP 2025 best paper nominee), ML in production at Co-operators, and merged PRs in pydantic-ai and mcp-atlassian.
+
 **Computer Engineering Co-op @ University of Guelph** (GPA 3.94/4.0) · **Cloud Engineer @ Co-Operators** · AI Security Researcher
 
-**[Portfolio](https://julien-ser.github.io/JulienSerbanescu/)** · **[LinkedIn](https://linkedin.com/in/julien-serbanescu)** · **[ORCID](https://orcid.org/0009-0000-2305-0228)**
+**[Portfolio](https://julien-ser.github.io/JulienSerbanescu/)** · **[LinkedIn](https://www.linkedin.com/in/julien-serbanescu-6ba52a241/)** · **[Google Scholar](https://scholar.google.com/citations?user=mnpXcUwAAAAJ)** · **[ORCID](https://orcid.org/0009-0000-2305-0228)**
 
 ---
 
